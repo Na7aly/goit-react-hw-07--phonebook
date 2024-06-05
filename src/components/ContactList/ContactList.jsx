@@ -2,7 +2,7 @@ import styles from './ContactList.module.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { getFilteredContacts, selectContacts} from '../../redux/selectors';
 import { deleteContacts} from '../../redux/operations';
-import Avatar from 'react-avatar';
+
 
 function ContactList() {
   const dispatch = useDispatch();
